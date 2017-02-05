@@ -48,3 +48,33 @@ var products = [
     "imageTitle": "twill.jpg"
   }
 ]
+
+
+var seasons = {
+  "loveWinter": "",
+  "temp": ""
+  
+};
+
+alert("welcome! we hope you love winter as much as we do!");
+
+var loveWinter = prompt("but seriously, do you love winter?");
+ if (loveWinter == "yes") {
+   alert("yay! us too!")
+   seasons.loveWinter = true; 
+   
+ } else if (seasons.loveWinter == "no") {
+   seasons.loveWinter + false;
+ }
+   else {
+     alert("come on! you can tell us!")
+}
+
+console.log(seasons);
+ 
+
+
+
+
+
+
