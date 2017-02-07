@@ -1,4 +1,4 @@
-var products = [
+/* var products = [
   {
     "name": "Reversible Plaid",
     "price": 26.99,
@@ -49,10 +49,11 @@ var products = [
   }
 ]
 
+*/
 
 var seasons = {
   "loveWinter": "",
-  "temp": ""
+  "Price": ""
   
 };
 
@@ -64,13 +65,29 @@ var loveWinter = prompt("but seriously, do you love winter?");
    seasons.loveWinter = true; 
    
  } else if (seasons.loveWinter == "no") {
+   alert("well fine!")
    seasons.loveWinter + false;
  }
    else {
-     alert("come on! you can tell us!")
+     alert("come on! you can tell us!");
 }
 
 console.log(seasons);
+
+
+var Price = prompt("how much are you willing to spend?");
+
+var parsedPrice = parseInt(Price) ;
+
+if (parsedPrice >= 0 && parsedPrice < 10000) { 
+    seasons.Price = parsedPrice;
+    }
+    
+console.log(seasons);
+  
+
+
+
  
 
 
