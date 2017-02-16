@@ -85,11 +85,13 @@ if (parsedPrice >= 0 && parsedPrice < 10000) {
     
 console.log(seasons);
 
-
-
-
-
- 
+function capture () {
+  console.log("sure it worked");
+  console.log(document.filter.price.value);
+  console.log(document.filter.name.vallue);
+  event.preventDefault();
+  
+}
 
 
 
