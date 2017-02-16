@@ -1,4 +1,64 @@
-/*  SECTIONS  */
+nav {
+  clear: both;
+  height: 40p;
+  text-align: center;
+  padding-top: 3em;
+  word-spacing: 15em;
+  padding-bottom: 3em;
+  
+}
+
+li {
+  display: inline;
+}
+
+header {
+  text-align: center;
+  background-color: #96858f;
+  padding-bottom: 3em;
+  
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+
+a {
+  color: white;
+}
+
+body {
+  background-color: #808080;
+  color: white;
+  
+}
+
+aside {
+  padding: .8em;
+}
+
+.sortedscarves {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+/*Color scheme 
+links: #white 
+background: 
+#96858F* #6D7993 #9099A2 #808080 /
+
+
+
+
+
+
+
+
+/*  SECTIONS below for responsive grid system */
 .section {
 	clear: both;
 	padding: 0px;

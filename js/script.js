@@ -84,7 +84,8 @@ if (parsedPrice >= 0 && parsedPrice < 10000) {
     }
     
 console.log(seasons);
-  
+
+
 
 
 
