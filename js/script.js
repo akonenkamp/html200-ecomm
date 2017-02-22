@@ -1,4 +1,4 @@
-/* var products = [
+ var products = [
   {
     "name": "Reversible Plaid",
     "price": 26.99,
@@ -49,50 +49,61 @@
   }
 ]
 
-*/
+//var seasons = {
+//  "loveWinter": "",
+//  "Price": ""
+//  
+//};
+//
+//alert("welcome! we hope you love winter as much as we do!");
+//
+//var loveWinter = prompt("but seriously, do you love winter?");
+// if (loveWinter == "yes") {
+//   alert("yay! us too!")
+//   seasons.loveWinter = true; 
+//   
+// } else if (seasons.loveWinter == "no") {
+//   alert("well fine!")
+//   seasons.loveWinter + false;
+// }
+//   else {
+//     alert("come on! you can tell us!");
+//}
+//
+//console.log(seasons);
+//
+//
+//var price = prompt("how much are you willing to spend?");
+//
+//var parsedPrice = parseInt(Price) ;
+//
+//if (parsedPrice >= 0 && parsedPrice < 10000) { 
+//    seasons.price = parsedPrice;
+//    }
+//    
+//console.log(seasons);
 
-var seasons = {
-  "loveWinter": "",
-  "Price": ""
-  
-};
+//function capture () {
+//  console.log("sure it worked");
+//  console.log(document.filter.price.value);
+//  console.log(document.filter.name.vallue);
+//  event.preventDefault();
+//  
+//}
 
-alert("welcome! we hope you love winter as much as we do!");
 
-var loveWinter = prompt("but seriously, do you love winter?");
- if (loveWinter == "yes") {
-   alert("yay! us too!")
-   seasons.loveWinter = true; 
-   
- } else if (seasons.loveWinter == "no") {
-   alert("well fine!")
-   seasons.loveWinter + false;
- }
-   else {
-     alert("come on! you can tell us!");
+for(var i = 0; i<products.length; i++){
+ 
+  console.log(products[i].name);
+  console.log(products[i].description);
+  console.log(products[i].price);
 }
-
-console.log(seasons);
-
-
-var Price = prompt("how much are you willing to spend?");
-
-var parsedPrice = parseInt(Price) ;
-
-if (parsedPrice >= 0 && parsedPrice < 10000) { 
-    seasons.Price = parsedPrice;
-    }
-    
-console.log(seasons);
-
-function capture () {
-  console.log("sure it worked");
-  console.log(document.filter.price.value);
-  console.log(document.filter.name.vallue);
-  event.preventDefault();
-  
+ 
+function filterProducts(){
+ console.log(document.sortBy.filter.value);
+ event.preventDefault();
 }
-
+ 
 
 
 

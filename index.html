@@ -30,17 +30,12 @@
   </header>
 
   <aside>
-    <form>
+    <form name="sortBy" onSubmit="filterProducts();">
       <label>Filter By:
-        <select name="filter" onsubmit="capture();"> 
-          <option value="">Choose One</option>
-          <option value="price">Price</option>
-          <option value="name">Name</option>
-        </select>
+        <select name="filter"></select>
       </label>
-
-      <input type="submit" value="submit">
-    </form>
+     </form>
+    
   </aside>
 
   <section>
