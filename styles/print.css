@@ -1,0 +1,8 @@
+nav, footer, video, figcaption {
+  display: none;
+}
+
+a:after {
+content: " (" attr(href) ")"; font-size: 80%;
+}
+
