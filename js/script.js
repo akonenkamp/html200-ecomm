@@ -1,4 +1,4 @@
- var products = [
+var products = [
   {
     "name": "Reversible Plaid",
     "price": 26.99,
@@ -47,7 +47,7 @@
     "description": "Faribault brings you the Ashby Twill Scarf in Natural. Woven with a 'broken' twill technique, the Ashby Twill Scarf has a slight zigzag texture. Made in USA, this timeless scarf is crafted with luxurious merino wool and finished with heather gray fringe. 100% Merino wool",
     "imageTitle": "twill.jpg"
   }
-]
+];
 
 //var seasons = {
 //  "loveWinter": "",
@@ -103,7 +103,20 @@ function filterProducts(){
  console.log(document.sortBy.filter.value);
  event.preventDefault();
 }
- 
+
+var cart = [];
+
+function addCart(name) {
+  console.log(cart.length);
+  console.log(name);
+}
+
+function removeCart(name) {
+  console.log(cart.length);
+  console.log(name);
+}
+
+
 
 
 
