@@ -23,6 +23,7 @@
         <li><a href="scarves.html">Scarves</a></li>
         <a href="">
           <li class="cart-info">
+          <div id="circle"><p id="number"></p></div>
           <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </li></a>
       </ul>
@@ -52,7 +53,6 @@
 
     <div class="item-container">
       <div class="item">
-        
       <div class="section group">
 	  <div class="col span_1_of_3">
      <!-- code template for a single item will go here -->
@@ -66,7 +66,8 @@
 
         <p class="describe">The Who What Wear Oversize Color-Block Square Scarf is big, bold, and designed to twist and wrap any way you wish. All the colors of the season are harmonized in this oversize accent, so you can adjust to contrast or match your outfit; soft and lush, it’s your stylish standoff against cold AC and unexpected fall breezes. 100% acrylic</p>
         <p class="price">$22.99</p>
-        <button onclick="addCart('multi color')" type="button">+</button>
+        <button onclick="increaseNumber()" type="button">+</button>
+<!--        <button onclick="addCart('multi color')" type="button">+</button>-->
         <button onclick="removeCart('multi color')" type="button">-</button>
         
       </div>
@@ -81,9 +82,9 @@
           
           src="images/etro.png" width="150px" height="150px">
       
-          <p class="describe">Luxurious silk scarf with subtle paisley pattern. 100% silk</p>
-          <p class="price">$money</p>
-        <button onclick="addCart('Etro Paisley-Print Silk')" type="button">+</button>
+        <p class="describe">Luxurious silk scarf with subtle paisley pattern. 100% silk</p>
+        <p class="price">$money</p>
+        <button onclick="increaseNumber()" type="button">+</button>
         <button onclick="removeCart('Etro Paisley-Print Silk')" type="button">-</button>
 	</div>
           
@@ -98,7 +99,7 @@
         
         <p class="describe">Generously sized, extra soft and featuring a dazzling fringe, this scarf is rendered in a versatile gray, black and white plaid. Expertly beat the cold with style. 100% acrylic.</p>
         <p class="price">$18.99</p>
-        <button onclick="addCart('fringed plaid')" type="button">+</button>
+        <button onclick="increaseNumber()" type="button">+</button>
         <button onclick="removeCart('fringed plaid')" type="button">-</button>
 	</div>
       

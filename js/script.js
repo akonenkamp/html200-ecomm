@@ -49,56 +49,6 @@ var products = [
   }
 ];
 
-//var seasons = {
-//  "loveWinter": "",
-//  "Price": ""
-//  
-//};
-//
-//alert("welcome! we hope you love winter as much as we do!");
-//
-//var loveWinter = prompt("but seriously, do you love winter?");
-// if (loveWinter == "yes") {
-//   alert("yay! us too!")
-//   seasons.loveWinter = true; 
-//   
-// } else if (seasons.loveWinter == "no") {
-//   alert("well fine!")
-//   seasons.loveWinter + false;
-// }
-//   else {
-//     alert("come on! you can tell us!");
-//}
-//
-//console.log(seasons);
-//
-//
-//var price = prompt("how much are you willing to spend?");
-//
-//var parsedPrice = parseInt(Price) ;
-//
-//if (parsedPrice >= 0 && parsedPrice < 10000) { 
-//    seasons.price = parsedPrice;
-//    }
-//    
-//console.log(seasons);
-
-//function capture () {
-//  console.log("sure it worked");
-//  console.log(document.filter.price.value);
-//  console.log(document.filter.name.vallue);
-//  event.preventDefault();
-//  
-//}
-
-
-for(var i = 0; i<products.length; i++){
- 
-  console.log(products[i].name);
-  console.log(products[i].description);
-  console.log(products[i].price);
-}
-
 function comparePrice(a, b) {
   if (a.price < b.price) {
     return -1;
@@ -171,4 +121,9 @@ function removeCart(name) {
   console.log(cart.length);
   console.log(name);
   console.log(cart);
+}
+ var n = 0;
+function increaseNumber () {
+n=n+1;
+document.getElementById('number').innerHTML=n;
 }
